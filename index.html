@@ -1,10 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My GitHub Pages Site</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-  </body>
+    <head>
+        <!-- STEP 1: Add a title for the website -->
+        <title>Home</title>
+
+        <!-- STEP 2: Connect the CSS file to the website -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">  
+    </head>
+
+    <body>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="https://www.katie-chai.com/">Technical Portfolio</a></li>
+            <li><a href="https://www.katie-chai.com/design-portfolio">Design Portfolio</a></li>
+            <li><a href="https://www.katie-chai.com/resume">Resume</a></li>
+        </ul>
+
+        <div style="padding-left: 10%;padding-right: 10%;background-color:#ffffff;height:1500px;">
+            <!-- STEP 3: Put your name here -->
+            <h1>Creative Writing Project</h1>
+
+            <!-- STEP 4: Add your headshot image to the website -->
+            <img src="images/katieHeadshot.jpg" alt="Katie Chai's headshot" width="240" height="240">
+
+            <!-- STEP 5: Add headline -->
+            <!-- <h3>CS @ UNC Chapel Hill | Robertson Scholar</h3> -->
+
+            <!-- STEP 6: Add "About" section -->
+            <h3>About</h3>
+            <p>I am passionate about the intersection between computer science and medicine. 
+                Specifically, I want to explore how computer science can optimize and revolutionize the health care system. 
+                My love for community service, enthusiasm for problem solving, and devotion to health care equality has led me to my desired career path. 
+                In the future, I intend to work in the medical informatics or biostatistics field.
+                In my free time, I am taking film photos and cooking with my friends!
+            </p>
+
+            <!-- STEP 7: Add "Education" section -->
+            <h3>Education</h3>
+            <p>Currently, I am a sophomore at UNC-Chapel Hill studying Computer Science, Biostatistics, and Data Science. I am also enrolled at Duke University as a Robertson Scholar. There, I am pursuing a minor in Computational Biology and Bioinformatics.</p>
+
+            <!-- STEP 8: Add "Coursework" section -->
+            <h3>Coursework</h3>
+            <p class="courses">Data Structures</p>
+            <p class="courses">Discrete Math</p>
+            <p class="courses">Calculus I</p>
+            <p class="courses">Calculus II</p>
+            <p class="courses">Calculus III</p>
+            <p class="courses">Intro to Programming and Data Science</p>
+
+            <!-- <ul>
+                <li>Data Structures</li>
+                <li>Discrete Math</li>
+                <li>Calculus I</li>
+                <li>Calculus II</li>
+                <li>Calculus III</li>
+                <li>Intro to Programming and Data Science</li>   
+            </ul> -->
+
+            <h3>Projects</h3>
+            <p class="languages">HTML/CSS</p>
+            <div class="text-center">
+                <a href='https://github.com/cssgunc/p01-personal-portfolio-katiecha'><button class="button1">Personal Portfolio</button></a>
+                <a href='https://www.unckasa.com/'><button class="button1">UNC KASA Website</button></a>
+                <a href='https://www.catch-inc.com/'><button class="button1">UNC CATCH Website</button></a>
+            </div>
+
+            <p class="languages">Python</p>
+            <div class="text-center">
+                <a href='https://github.com/katiecha/comp110-22s-workspace/blob/main/exercises/ex04_turtle_art.py'><button class="button2">Turtle Art</button></a>
+                <a href='https://github.com/katiecha/comp110-22s-workspace/blob/main/exercises/ex03_wordle.py'><button class="button2">Wordle</button></a>
+                <a href='https://github.com/katiecha/comp110-22s-workspace/tree/main/exercises/ex07'><button class="button2">Data Wrangling</button></a>
+            </div>
+
+            <p class="languages">Java</p>
+            <div class="text-center">
+                <a href='https://github.com/COMP210-FA22-002/workspace-katiecha/tree/main/assignments/src/assn02'><button class="button3">Transaction Tracking</button></a>
+                <a href='https://github.com/COMP210-FA22-002/workspace-katiecha/tree/main/assignments/src/assn03'><button class="button3">Linked List</button></a>
+            </div>
+
+            <!-- STEP 9: Complete "Favorite Things" table -->
+            <h3>Favorite Things</h3>
+            <table>
+                <tr>
+                    <th>Favorite Animal</th>
+                    <th>Favorite Movie Genre</th>
+                    <th>Favorite Game</th>
+                    <th>Favorite Food</th>
+                </tr>
+                <!-- add row here -->
+                <tr>
+                    <th>Bunny</th>
+                    <th>Science Fiction</th>
+                    <th>Pokémon</th>
+                    <th>Dosa</th>
+                </tr>
+            </table>
+            <div id="footer">
+            </div>
+        </div>
+    </body>
 </html>
