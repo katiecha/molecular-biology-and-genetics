@@ -18,7 +18,7 @@ h3 {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin: 10;
 }
 
 table, th, td {
@@ -101,9 +101,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    bottom: 0;
+    background-color: rgb(169, 169, 169);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
     width: 100%;
 }
 
