@@ -8,7 +8,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
 }
 
 /* STEP 12: Add custom styles to website*/
@@ -101,7 +100,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(60, 60, 62);
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -129,5 +128,5 @@ li a:hover:not(.active) {
 }
 
 #footer {
-    height: 20px;
+    height: 5px;
 }
