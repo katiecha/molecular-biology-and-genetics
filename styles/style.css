@@ -18,6 +18,7 @@ h3 {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 10;
+
 }
 
 table, th, td {
@@ -124,9 +125,9 @@ li a:hover:not(.active) {
 }
   
 .active {
-    background-color: #4b9cd3;
+    background-color: #7BAFD4;
 }
 
 #footer {
-    height: 5px;
+    height: 20px;
 }
