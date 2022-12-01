@@ -24,6 +24,7 @@ body {
 
 .citation {
     text-align: center;
+    font-size: 15px;
 }
 
 table, th, td {
@@ -82,11 +83,11 @@ th, td {
 .button2 {
     background-color: white; 
     color: black; 
-    border: 2px solid #4b9cd3;
+    border: 2px solid #a4cae1;
 }
   
 .button2:hover {
-    background-color: #4b9cd3;
+    background-color: #a4cae1;
     color: white;
 }
 
@@ -130,7 +131,7 @@ li a:hover:not(.active) {
 }
   
 .active {
-    background-color: #7BAFD4;
+    background-color: #a4cae1;
 }
 
 #footer {
